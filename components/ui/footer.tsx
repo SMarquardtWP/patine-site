@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import LightLogo from '@/public/images/PatinaLogoAlphaLightSmall.png'
+import LightLogo from '@/public/images/PatineLogoAlphaLightSmall.png'
 import Image from 'next/image'
 
 export default function Footer() {
@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Image src={LightLogo} alt="The patina logo, a castiron skillet next to the name Patina"/>
+                <Image src={LightLogo} alt="The patine logo, a castiron skillet next to the name Patine"/>
               </div>
               <div className="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
             </div>
@@ -133,7 +133,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Patina.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; Patine.</div>
 
           </div>
 

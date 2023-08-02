@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import MobileMenu from './mobile-menu'
-import LightLogo from '@/public/images/PatinaLogoAlphaLightSmall.png'
+import LightLogo from '@/public/images/PatineLogoAlphaLightSmall.png'
 import Image from 'next/image'
 
 export default function Header() {
@@ -11,10 +11,10 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            {/* <Link href="/" className="block" aria-label="Patina">
+            {/* <Link href="/" className="block" aria-label="Patine">
 
             </Link> */}
-            <Image src={LightLogo} alt="The patina logo, a castiron skillet next to the name Patina"/>
+            <Image src={LightLogo} alt="The patine logo, a castiron skillet next to the name Patine"/>
           </div>
 
           {/* Desktop navigation
